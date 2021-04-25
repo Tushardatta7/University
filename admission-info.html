@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>SmartEDU - Education Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+        <!-- Modal -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header tit-up">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Customer Login</h4>
+            </div>
+            <div class="modal-body customer-box">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                    <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="Login">
+                        <form role="form" class="form-horizontal">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="email1" placeholder="Name" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                        Submit
+                                    </button>
+                                    <a class="for-pwd" href="javascript:;">Forgot your password?</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane" id="Registration">
+                        <form role="form" class="form-horizontal">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" placeholder="Name" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="email" placeholder="Email" type="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="mobile" placeholder="Mobile" type="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input class="form-control" id="Address" placeholder="Address" type="text">
+                                </div>
+                            </div>
+                            <div class="row">                           
+                                <div class="col-sm-10">
+                                    <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                        Save &amp; Continue
+                                    </button>
+                                    <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                        Cancel</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+    <!-- Start header -->
+    <header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/apple-touch-icon.png" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-host">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+
+                        <li class="nav-item"><a class="nav-link dropdown-toggle" href="department.html">Department </a>  
+                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="admission-info.html">Admission info</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Apply now</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+    <div class="all-title-box">
+        <div class="container text-center">
+            <h1>Admission Information and Policies<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
+        </div>
+    </div>
+    
+	<section class="about py-5">
+
+    <div class="container py-sm-3">
+        
+
+        <div style="text-align:justify; color: #34495e"><div id="article_content_area">
+<div class="col-md-12">
+<p><strong>Application</strong></p>
+<p>A student interested in taking admission in RPSU should procure admission form from the admission office and return the filled in application form along with other documents to the admission office. Photocopies of all certificates, mark sheets, testimonials, two copy of passport size photo, students birth certificate &amp; guardian NID are required to be submitted with the admission form. Students can also apply through online <a href="http://www.rpsu.edu.bd/">www.rpsu.edu.bd</a>.&nbsp; After primary scrutiny, applicants will be called to sit for an admission test and interview. Admission tests are conducted for spring, summer and fall semesters. Test dates are published in the university website at <a href="http://www.rpsu.edu.bd/">www.rpsu.edu.bd</a>.</p>
+<p>&nbsp;<br /><strong>Admission on Credit Transfer</strong></p>
+<p>A Student desiring to transfer his/her credits is expected to have at least a CGPA of 2.5 in all previous examinations to be considered for admission to the University. S/he must submit syllabus, official transcripts and no objection certificate from previously attended institutions along with the admission applications. Admission Test may be required for a student desiring transfer of credits. Individual department may have some additional requirements.</p>
+<p><strong><br />Admission of Foreign Applicants</strong></p>
+<p>International applicants seeking admission to RPSU must meet the equivalent academic standards that are for admission for native students. International applicants are selected on the basis of their prior academic work, English proficiency and certification of adequate financial resources.</p>
+<p><strong><br />Admission Cancellation</strong></p>
+<p>Admission of any student may be cancelled by RPSU authority for the following reason(s):</p>
+<ul>
+<li>If a student does not continue 3 trimesters / 2 semesters consecutively.</li>
+<li>If a student does not pay his/her dues in time.</li>
+<li>If a student fails to produce necessary academic documents to the admission office.</li>
+<li>If a student takes part in any activity that goes against discipline or RPSU rules &amp; regulations.</li>
+</ul>
+<ul>
+</ul>
+<p><strong><br />Provisional Admission</strong></p>
+<p>RPSU may provisionally accept applicants for admission who cannot produce official transcripts, certificates and other necessary documents at the time of admission. As a prerequisite all provisionally admitted students will be required to submit the appropriate credentials to continue. Required credentials must be submitted within the semester of initial enrollment.</p>
+<p><strong><br />Readmission</strong></p>
+<p>A RPSU student whose admission has been cancelled must submit an application for readmission. If this student has attended other colleges and universities during his/her absence at RPSU s/he must submit official transcripts along with applications. Such a student will have to pay the readmission fees.<br /><br /><br /><strong>Grade Requirement for Degree</strong></p>
+<p>To earn an Undergraduate Degree from RPSU, a student must complete his degree requirements with a minimum CGPA of 2.50. The grading policies are,</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph"><strong>Numerical   Grade</strong></p>
+</td>
+<td colspan="2" width="268" valign="top">
+<p class="TableParagraph" style="text-align: center;"><strong>Letter Grade</strong></p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph"><strong>Grade Point</strong></p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">80% and above</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">A+</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(A Plus)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">4.0</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">75% to less than 80%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">A</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(A Regular)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">3.75</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">70% to less than 75%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">A-</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(A Minus)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">3.5</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">65% to less than 70%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">B+</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(B Plus)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">3.25</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">60% to less than 65%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">B</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(B Regular)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">3.0</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">55% to less than 60%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">B-</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(B Minus)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">2.75</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">50% to less than 55%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">C+</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(C Plus)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">2.5</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">45% to less than 50%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">C</p>
+</td>
+<td style="text-align: center;" width="148" valign="top">
+<p class="TableParagraph">(C Regular)</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">2.25</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">40% to less than 45%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">D</p>
+</td>
+<td width="148" valign="top">
+<p class="TableParagraph">&nbsp;</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">2.0</p>
+</td>
+</tr>
+<tr>
+<td width="175" valign="top">
+<p class="TableParagraph">Less than 40%</p>
+</td>
+<td style="text-align: center;" width="120" valign="top">
+<p class="TableParagraph">F</p>
+</td>
+<td width="148" valign="top">
+<p class="TableParagraph">&nbsp;</p>
+</td>
+<td style="text-align: center;" width="147" valign="top">
+<p class="TableParagraph">0.0</p>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<p><br /><br /><strong>Class Attendance</strong></p>
+<p>A student is expected to attend reasonable portion (not less than 80%) of the lectures, tutorials and practical classes for the respective course. It is the responsibility of the instructor to inform the student of the consequences of absence from class. It is the responsibility of the student to keep instructors informed regarding absences from classes. A student who knows of necessary class absences should consult instructors in advance. A student who misses a class is not excused from obligations to instructors. Instructors will determine the manner in which assignments and examinations missed may be made up. A student may be dropped from a course for absence in five consecutive classes.<br /><br /><strong>Probation and Dismissal</strong></p>
+<p>A Student whose CGPA falls below 2.50 after the first two trimesters will be placed on probation for the next two trimesters. Failure to raise their CGPA to at least 2.50 after the probation period will lead to dismissal from the university. If a student&rsquo;s CGPA falls below 2.50 subsequently, s/he will again be placed on probation. Students who fail to achieve a GPA of 2.50 within three trimesters will be dismissed from the university. A student dismissed on academic ground(s) may be allowed to be admitted in another program with permission of the university authority.<br /><br /><strong>Discontinuation</strong></p>
+<p>Discontinuance of studies results either in the issuance of transfer of credentials (honorable dismissal) issued by the Registrar's Office for responsible cause or upon petition of the student or an order of dismissal by the university after the commission of a major offense specified in the code of conduct for students. Should a student wish to leave the university temporarily, he must first secure permission from the office stating the definite period and reason for the leave. A student must obtain approval on the Leave of Absence form, which can be secured from the Registrar's Office; otherwise, the period of his/her absence shall be counted against him/her for purpose of the time limit or maximum residency. Prior permission is required from the Registrar&rsquo;s Office for discontinuation of studies for any specific reason. The Leave of Absence Form must be filled out stating the specific reason. Otherwise, the period of absence shall be counted against the student and an absence of 3 consecutive trimesters/ 2 semesters without prior approval will account to cancellation of studentship from RPSU.&nbsp;&nbsp;<br /><strong><br />Adding/ Dropping of Courses</strong></p>
+<p>A student who seeks to add or drop courses should consult his/her advisors and instructors of relevant courses. S/he may add/drop courses only within the date mentioned in the Academic Calendar and only with the approval of their academic advisors. All adding or dropping of course(s) must be done through the registration office of the university. However, the minimum load has to be ensured after dropping of course(s). The grade &ldquo;Withdrawal&rdquo; (W) is assigned when a student officially drops a course.<br /><br /><strong>Course Withdrawal</strong></p>
+<p>Students interested to withdraw from particular course must obtain a course withdrawal approval from the office of Registration. However, once a student receives &lsquo;F&rsquo; grade in midterm Examinations he/she will no longer be eligible for withdrawal. A student who has dropped or withdrawn from a course (officially or unofficially) will not be eligible for any kind of Scholarship, Academic Honors or Awards.<br /><br /><strong>Course Retaking / Repeating</strong></p>
+<p>Students receiving a grade of &lsquo;C+&rsquo; or below may retake/repeat a course. If a student receives a grade like &lsquo;F&rsquo;, &lsquo;I&rsquo;, &lsquo;W&rsquo; or &lsquo;UW&rsquo; in a particular course he retakes/repeats in the immediate trimester under the following terms and conditions:</p>
+<p>&bull; A Student is allowed to retake a course maximum three times</p>
+<p>&bull; A Student is allowed to have a maximum of four &lsquo;F&rsquo; grades</p>
+<p>&bull; From 5<sup>th</sup> &lsquo;F&rsquo; grade onward the grade &lsquo;F&rsquo; will be taken into account while computing CGPA.</p>
+<p>&bull; In any circumstances, the &lsquo;F&rsquo; grade awarded by any disciplinary committee will not be replaced/ removed by a new grade.</p>
+<p>The newly earned grade will be displayed alongside the &lsquo;F&rsquo; grade. However, for CGPA computation purposes the newly earned grade will be taken into account while computing the CGPA. Students must pay full tuition fees for retaking courses.<br /><br /><strong>Disciplinary Policy</strong></p>
+<p>The RPSU administration reserves the right to show cause, suspend, put on probation or even terminate enrollment of any student under the following circumstances:</p>
+<ul>
+<li>&middot;Failure to meet the financial obligations on schedule</li>
+<li>&middot;Involving in any political activity in the university</li>
+<li>&middot;Forming student organization without prior approval of the university authority</li>
+<li>&middot;Any subversive act against the country or the university</li>
+<li>&middot;Having any previous criminal records</li>
+<li>&middot;Involving in any kind of verbal or physical act of violence towards any person of the university</li>
+<li>&middot;Involvement in any kind of sexual harassment against anyone (student/ staff) related to the university&nbsp; </li>
+<li>&middot;Adopting any unfair means in any examination.</li>
+</ul>
+<p><strong><br />Degree Completion</strong><br />Degree must be completed by a student within an equivalent period of maximum 18 trimester or 12 semesters which is prescribed for each undergraduate degree program.</p>
+<strong><br />Academic Scholarship for Student</strong>
+<p>A regular student may apply for Academic Scholarship under the following circumstances:</p>
+<ul>
+<li>Regular Academic load of at least 9 credits per      trimester/ 15 credits for semester.</li>
+<li>No F/ I /W /UW grade</li>
+<li>No Semester / Trimester dropping</li>
+<li>No Disciplinary Action taken.&nbsp;&nbsp;&nbsp;</li>
+<li>Tuition waiver based on SSC/HSC results will      remain valid during the 1<sup>st</sup>&nbsp;trimester/semester.&nbsp;</li>
+<li>Waiver will be reviewed in the 2      trimester/semester based on their CGPA as per RPSU tuition rules.</li>
+<li>Tuition waiver will be applicable only for      tuition fees.&nbsp;</li>
+<li>No waiver will be allowed in case of      Improvement, re-take &amp; internship/research/project/dissertation/viva.</li>
+<li>Students shall ensure at least 80% attendance in      each course to be eligible for Trimester/Semester based Academic      Scholarship.</li>
+<li>Students who are already enjoying waiver benefit      in any category are not eligible for further waiver benefit</li>
+</ul>
+The number of recipients may vary from time to time and the Award of Scholarship depends on the availability of slots. The decision to extend scholarship to any individual student remains at the complete discretion of the RPSU Administration.
+<p><br /><strong>Renewal of Grant</strong></p>
+<p>For renewal of grant an applicant</p>
+<ul>
+<li>&middot;Must be a &lsquo;Regular Full Time Student&rsquo;</li>
+<li>&middot;Must be enrolled in all Academic courses during the preceding and subsequent trimesters</li>
+<li>&middot;Must not have any disciplinary record</li>
+<li>&middot;Must have a CGPA of 3.75 or above with no F/I/W/UW grade, no dropping or retake of course(s)</li>
+<li>&middot;Must have an attendance of more than 80% at all times.</li>
+</ul>
+<p><strong><br />Academic Honors</strong></p>
+<p>For Academic Honor an applicant must satisfy the following criteria:</p>
+<ul>
+<li>&middot;Be a &lsquo;Regular Full Time Student&rsquo;</li>
+<li>&middot;No grade lower than &lsquo;B+&rsquo;</li>
+<li>&middot;No F/I/W/UW grade, no dropping or retake of any course</li>
+<li>&middot;GPA of SSC/ HSC or equivalent examination must be more than or equal to 4.00. </li>
+<li>&middot;Minimum credit earned at RPSU must be more than 60%.</li>
+</ul>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="156" valign="top">
+<p><strong>CGPA</strong></p>
+</td>
+<td width="216" valign="top">
+<p><strong>Honor</strong></p>
+</td>
+<td width="192" valign="top">
+<p><strong>Award</strong></p>
+</td>
+</tr>
+<tr>
+<td width="156" valign="top">
+<p>3.75 to 3.84</p>
+</td>
+<td width="216" valign="top">
+<p>Cum Laude</p>
+</td>
+<td width="192" valign="top">
+<p>Bronze Medal</p>
+</td>
+</tr>
+<tr>
+<td width="156" valign="top">
+<p>3.85 to 3.94</p>
+</td>
+<td width="216" valign="top">
+<p>Magna Cum Laude</p>
+</td>
+<td width="192" valign="top">
+<p>Silver Medal</p>
+</td>
+</tr>
+<tr>
+<td width="156" valign="top">
+<p>3.95 to 4.00</p>
+</td>
+<td width="216" valign="top">
+<p>Summa Cum Laude</p>
+</td>
+<td width="192" valign="top">
+<p>Gold Medal</p>
+</td>
+</tr>
+</tbody>
+</table>
+<strong><br />Registration and Payment</strong>
+<p class="orange">A student will go to their respective advisor to register their courses. Most of the full-time faculty members are academic advisors of students. The academic advisors are required to be present at the respective offices during the registration period. The financial guarantor/guardian of the student may visit the academic advisors to be informed about the academic performance of his/her ward. The academic advisors and faculty members would extend their help to the financial guarantor/guardian of the student concerned. Registration must be confirmed 15 days ahead of start of the classes. There is no scope of registration at late. A student has options to clear the dues by maximum 2(two) installments. 1<sup>st</sup> installment must be cleared within specified days of Registration Confirmation during admission / regular student. 2<sup>nd</sup> installment must be cleared 7 days ahead of 1<sup>st</sup> midterm examinations. Without clearing dues the students will not be given admit cards for the examination.<br /><br /><strong>Refund Policy</strong></p>
+<p>Adjustment of fees due to withdrawal of enrolment may be granted upon written request of either of the parents or the guarantor. Only tuition fees will be refunded. Admission and other fees will not be refundable. Tuition fees will be refunded to a student who withdraws from a trimester/semester after registration within 15 (fifteen) days. No refund after 15 days..</p>
+<p class="orange"><em>&nbsp;<br /></em><em><strong>Awards</strong></em></p>
+<p class="orange"><em><strong>Chancellor&rsquo;s Award</strong></em></p>
+<p>Chancellor&rsquo;s Award is given in recognition of the academic performance and is awarded to undergraduates who achieve the highest academic award (Summa Cum Laude), excellent academic background, with proper manners, character and participation in extracurricular activities. Only one is chosen in each program.&nbsp;&nbsp;&nbsp;</p>
+<p><strong><br />Vice Chancellor&rsquo;s Award</strong></p>
+<p>The Vice Chancellor&rsquo;s Award is for the meritorious effort for the successful completion of:</p>
+<p class="orange"><em>&bull; Best &lsquo;Thesis&rsquo; of Undergraduate program</em></p>
+<p class="orange"><em>&bull; Best &lsquo;Design Project&rsquo; of Undergraduate program</em></p>
+<p class="orange"><em>&bull; Best &lsquo;Internship Report&rsquo; of Undergraduate program</em></p>
+<p><strong><br />Chairman&rsquo;s Award</strong></p>
+<p>This award is given in recognition of the outstanding voluntary efforts, achievements, contributions and the exemplary performance of deserving students. Must be a Regular Full Time Student and with a minimum CGPA is 3.20.</p>
+<p><em><strong><br /></strong></em></p>
+</div>
+</div></div>
+              
+    </div>
+</section>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="text-center" style="color: orange">Apply Now</h1>
+
+            <form action="" method="POST">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="name" class="form-control" required="required">
+              </div>
+
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" class="form-control" required="required">
+              </div>
+
+              <div class="form-group">
+                <label>Phone No.</label>
+                <input type="text" name="phone" class="form-control" required="required">
+              </div>
+
+              <div class="form-group">
+                <label>Address</label>
+                <input type="text" name="address" class="form-control" required="required">
+              </div>
+
+              <div class="form-group">
+                <input type="submit" name="register" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+
+    <div class="parallax section dbcolor">
+        <div class="container">
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_04.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_05.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_06.png" alt="" class="img-repsonsive"></a>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>   
+                        <div class="footer-right">
+                            <ul class="footer-links-soi">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            </ul><!-- end links -->
+                        </div>                      
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="department.html">Department</a></li>
+                            <li><a href="admission-info.html">Admission info</a></li>       
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">tushardatta51@gmail.com</a></li>
+                            <li><a href="#">www.tushar.com</a></li>
+                            <li>Narayanganj Bangladesh</li>
+                            <li>01863760426</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">University</a> Design By : <a href="index.html">Tushar Ch Datta</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+
+
+
+
+</body>
+</html>
